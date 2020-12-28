@@ -6,20 +6,37 @@ Add styles or override variables from the theme here.
 
 // Theme colors
 
-$primary: #b565a7 !default;
-$primary-light: #be9cc1 !default;
-$secondary: #ec809e !default;
-$success: #64bfa4 !default;
-$info: #93a9d1 !default;
-$warning: #ec9688 !default;
-$danger: #d2386c !default;
-$white: #f4dede !default;
-$light: #f7caca !default;
+$rosely0: #27272a;
+$rosely1: #615f5f;
+$rosely2: #85677b;
+$rosely3: #a49e9e;
+$rosely4: #f7caca;
+$rosely5: #f4dede;
+$rosely6: #f4eee8;
+$rosely7: #93a9d1;
+$rosely8: #be9cc1;
+$rosely9: #b0879b;
+$rosely10: #b565a7;
+$rosely11: #d2386c;
+$rosely12: #ec809e;
+$rosely13: #eada4f;
+$rosely14: #64bfa4;
+$rosely15: #919bc9;
 
-$dark: #85677b !default;
-$blue: #b565a7 !default;
-$orange: #ec809e !default;
-$gray-100: #f8f9fa !default;
+$primary: $rosely10 !default;
+$primary-light: $rosely7 !default;
+$secondary: $rosely15 !default;
+$success: $rosely14 !default;
+$info: $rosely7 !default;
+$warning: $rosely13 !default;
+$danger: $rosely11 !default;
+$white: $rosely6 !default;
+$light: $rosely4 !default;
+
+$dark: $rosely2 !default;
+$blue: $rosely15 !default;
+$orange: $rosely12 !default;
+$gray-100: $rosely6 !default;
 $gray-200: #eee !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ccc !default;
@@ -28,14 +45,14 @@ $gray-600: #888 !default;
 $gray-700: #495057 !default;
 $gray-800: #333 !default;
 $gray-900: #222 !default;
-$black: #000 !default;
+$black: $rosely0 !default;
 
-$code-color: #85677b !default;
+$code-color: $rosely2 !default;
 
 // UI element colors
 
-$border-color: #b0879b !default;
-$td-sidebar-bg-color: $light !default;
+$border-color: $rosely8 !default;
+$td-sidebar-bg-color: $rosely5 !default;
 $td-sidebar-border-color: $border-color !default;
 
 // Background colors for the sections on home page etc. It is a paint by number system, starting at 0, where the number is taken from the shortcode's ordinal
@@ -43,9 +60,9 @@ $td-sidebar-border-color: $border-color !default;
 // These colors are all part of the theme palette, but the mix is fairly random to create variation. This can be overridden by the project if needed.
 $td-box-colors: $dark, $primary, $secondary, $info, $primary-light, $gray-600, $success, $warning, $dark, $danger, $primary, $secondary, $primary-light, $info !default;
 
-$link-color: #b565a7 !default;
+$link-color: $rosely10 !default;
 $link-decoration: none !default;
-$link-hover-color: #d94f70 !default;
+$link-hover-color: $rosely9 !default;
 $link-hover-decoration: none !default;
 
 $font-size-base: 1rem !default;
@@ -95,10 +112,22 @@ $pagination-disabled-color: $gray-300 !default;
 
 // Navbar
 
-$navbar-dark-color: rgba(#f4eee8, 0.7) !default;
+$navbar-dark-color: rgba($white, 0.7) !default;
 $navbar-dark-hover-color: rgba($white, 0.9) !default;
 $navbar-dark-active-color: $white !default;
 $navbar-dark-disabled-color: rgba($light, 0.25) !default;
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light".
 $yiq-contrasted-threshold: 200 !default;
+
+.td-rosely {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    & > .byline {
+        position: absolute;
+        bottom: 2px;
+        right: 4px;
+    }
+}

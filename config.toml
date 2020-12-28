@@ -4,6 +4,7 @@ title = "Rosely"
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
+# theme = ["docsy", "hugo-creative-portfolio-theme"]
 theme = ["docsy"]
 
 # Will give values to .Lastmod etc.
