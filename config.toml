@@ -1,9 +1,10 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "Rosely"
 
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
+# theme = ["docsy", "hugo-creative-portfolio-theme"]
 theme = ["docsy"]
 
 # Will give values to .Lastmod etc.
@@ -47,24 +48,19 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+# id = "UA-00000000-0"
 
 # Language configuration
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "Rosely"
+description = "Colour Palette and Design System"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+time_format_default = "2006-01-02"
+time_format_blog = "2006-01-02"
 
 [markup]
   [markup.goldmark]
@@ -79,7 +75,7 @@ time_format_blog = "02.01.2006"
 # Everything below this are Site Params
 
 [params]
-copyright = "The Docsy Authors"
+copyright = "Hello Tham"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -104,9 +100,9 @@ version = "0.0"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://github.com/ChristineTham/Rosely-docsy"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/ChristineTham/Rosely"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
