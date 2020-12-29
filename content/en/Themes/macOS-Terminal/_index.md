@@ -20,5 +20,15 @@ macOS Terminal Profiles tab
 Select import, and import either (or both) the following profiles:
 
 {{< download "Rosely Light" "/downloads/Rosely%20Light.terminal" >}}
+{{< imgproc rosely-light Fit "762x554" >}}
+Rosely Light example
+{{< /imgproc >}}
 
 {{< download "Rosely Dark" "/downloads/Rosely%20Dark.terminal" >}}
+{{< imgproc rosely-dark Fit "762x554" >}}
+Rosely Dark example
+{{< /imgproc >}}
+
+{{< imgproc colortest Fit "585x548" >}}
+colortest-8 results
+{{< /imgproc >}}
