@@ -5,7 +5,7 @@ description: >
   The “Adobe Swatch Exchange“ format that allows to share color swatches between different Adobe products.
 ---
 
-{{< download Rosely.ase "https://github.com/ChristineTham/rosely/raw/develop/src/swatches/rosely.ase" >}}
+{{< download Rosely.ase "/downloads/rosely.ase" >}}
 
 The `rosely.ase` file can be downloaded from [Github](https://github.com/ChristineTham/rosely/raw/develop/src/swatches/rosely.ase) and also included in the `rosely` npm package.
 

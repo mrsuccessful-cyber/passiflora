@@ -11,6 +11,6 @@ This file can be used on the following applications:
 - [Krita](https://krita.org/en/) - Krita is a professional FREE and open source painting program.
 - [Inkscape](https://inkscape.org) - Free and open source vector graphics editor for GNU/Linux, Windows and MacOS X.
 
-{{< download rosely.gpl "https://github.com/ChristineTham/rosely/raw/develop/src/swatches/rosely.gpl" >}}
+{{< download rosely.gpl "/downloads/rosely.gpl" >}}
 
 The `rosely.gpl` file can be downloaded from [Github](https://github.com/ChristineTham/rosely/raw/develop/src/swatches/rosely.gpl) and also included in the `rosely` npm package.

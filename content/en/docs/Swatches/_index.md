@@ -1,10 +1,12 @@
 ---
-title: "Use the Palettes"
-linkTitle: "Use the Palettes"
+title: "Use the Swatches"
+linkTitle: "Swatches"
 weight: 7
 description: >
-  Native color swatches for your favorite applications.
+  Use the Rosely palette in your favourite design tool.
 ---
+
+![](/drawings/add-color.svg)
 
 Rosely color palettes are available in various native color swatch formats.
 

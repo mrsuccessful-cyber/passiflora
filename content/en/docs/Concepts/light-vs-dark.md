@@ -5,6 +5,8 @@ description: >
   Although there Rosely has light and dark variants, Rosely is predominantly a bright, low contrast design system. This article explains why.
 ---
 
+![](/drawings/dark-mode.svg)
+
 In recent years, "dark themes" and "dark modes" have become popular in design systems and user interfaces. Some claim that a dark colour scheme improves user experience and readability in low light situations.
 
 However, for people with astigmatism (including myself), light text on a dark background can be hard to read. [^1]

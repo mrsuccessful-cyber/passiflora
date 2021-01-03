@@ -8,9 +8,10 @@ menu:
     weight: 20
 ---
 
+![](/images/logo.svg)
+
 {{% pageinfo %}}
-This is a living document which means it is *work in progress*, not completed yet and *can change at any time* while the project is still in
-[development major version zero](https://semver.org/#spec-item-4) `0.y.z`!
+This is a living document which means it is *work in progress*, not completed yet and *can change at any time*!
 {{% /pageinfo %}}
 
 

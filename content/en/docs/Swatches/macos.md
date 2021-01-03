@@ -5,7 +5,7 @@ description: >
   Rosely can be incorporated as a palette in the Color Picker built into macOS
 ---
 
-{{< download Rosely.clr "https://github.com/ChristineTham/rosely/raw/develop/src/swatches/Rosely.clr" >}}
+{{< download Rosely.clr "/downloads/Rosely.clr" >}}
 
 The `Rosely.clr` file can be downloaded from [Github](https://github.com/ChristineTham/rosely/raw/develop/src/swatches/Rosely.clr) and also included in the `rosely` npm package.
 

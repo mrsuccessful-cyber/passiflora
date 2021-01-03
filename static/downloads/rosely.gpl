@@ -1,0 +1,36 @@
+GIMP Palette
+Name: Rosely
+Columns: 1
+#
+39	39	42	rosely0
+97	95	95	rosely1
+164	158	158	rosely2
+244	238	232	rosely3
+236	128	158	rosely4
+247	202	202	rosely5
+248	215	221	rosely6
+244	222	222	rosely7
+133	103	123	rosely8
+181	101	167	rosely9
+190	156	193	roselyA
+210	196	214	roselyB
+210	56	108	roselyC
+100	191	164	roselyD
+60	173	212	roselyE
+234	218	79	roselyF
+39	39	42	black
+221	65	36	red
+0	148	115	green
+223	193	96	yellow
+15	76	129	blue
+95	75	139	magenta
+69	181	170	cyan
+164	158	158	white
+97	95	95	bblack
+217	79	112	bred
+136	176	75	bgreen
+245	223	77	byellow
+147	169	209	bblue
+202	66	134	bmagenta
+195	221	214	bcyan
+244	238	232	bwhite

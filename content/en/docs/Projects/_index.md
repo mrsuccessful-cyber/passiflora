@@ -3,31 +3,13 @@ title: "Use in Projects"
 linkTitle: "Use in Projects"
 weight: 10
 description: >
-  Learn how to install Rosely, integrate the palettes and use the colors in your own projects.
+  Use the Rosely palette in your own projects.
 ---
+
+![](/drawings/color-schemes.svg)
 
 Rosely comes in many formats to cover a wide range of project types and tech stacks.
 Its [colors and palettes](/docs/colours-and-palettes/) have especially been designed for UI elements and code syntax highlighting often found in projects build with web technologies like websites.
-
-## Installation
-
-Since Rosely is heavily used in web technology based projects, its main installation method is therefore [**npm**][npm], the [Node.js][] package manager.
-
-Install and add it as production dependency by running `npm` from the command line:
-
-```sh
-npm install --save rosely
-```
-
-If you're using [**yarn**][yarn] instead of `npm` run the following command:
-
-```sh
-yarn add rosely
-```
-
-### From Source
-
-If you'd like to install Rosely without `npm` or `yarn` you can use it from source by either [downloading individual source files][gh-tree-src] or [cloning the repository][gh].
 
 ## Usage
 
@@ -35,83 +17,121 @@ Next to the available <Link to={ROUTE_DOCS_SWATCHES}>color swatches</Link> for y
 
 ### Sass
 
-[Sass][] is a mature, stable, and powerful professional grade CSS preprocessor and extension language.
-Rosely is available as [SCSS syntax module][sass-docs-scss] that can be imported using the [`@import`][sass-docs-import] @-rule that extends the [default CSS `@import`][mdn-css-@import] @-rule:
+[Sass][] is a CSS preprocessor and extension language.
+Rosely can be used simply by declaring the colour palettes as variables:
 
 ```scss
-@import "node_modules/rosely/src/sass/rosely.scss";
+$rosely0: #27272a;
+$rosely1: #615F5F;
+$rosely2: #A49E9E;
+$rosely3: #F4EEE8;
+$rosely4: #EC809E;
+$rosely5: #F7CACA;
+$rosely6: #F8D7DD;
+$rosely7: #F4DEDE;
+$rosely8: #85677B;
+$rosely9: #B565A7;
+$roselyA: #BE9CC1;
+$roselyB: #D2C4D6;
+$roselyC: #D2386C;
+$roselyD: #64BFA4;
+$roselyE: #3CADD4;
+$roselyF: #EADA4F;
 
+// Example
 body {
-  background-color: $rosely0;
-  color: $rosely8;
+  background-color: $rosely5;
+  color: $rosely0;
 }
 ```
-
-Please see the official [Sass syntax][sass-docs-syntax] documentation for more details about differences to the [indented Sass syntax][sass-docs-syntax-indented].
-
-The [Sass module][gh-tree-sass] provides all <Link to={ROUTE_DOCS_COLOR_AND_PALETTES}>Rosely colors</Link> as [Sass variables][sass-docs-vars] from `$rosely0` to `$rosely15`.
 
 ### Less
 
 [Less][] is a dynamic CSS preprocessor and extension language that was influenced by [Sass][] and has influenced the newer [SCSS syntax][sass-docs-scss].
-Rosely can be [imported as Less module][less-docs-importing] using the [`@import`][sass-docs-import] @-rule that extends the [default CSS `@import`][mdn-css-@import] @-rule:
 
 ```less
-@import "node_modules/rosely/src/rosely.less";
+@rosely0: #27272a;
+@rosely1: #615F5F;
+@rosely2: #A49E9E;
+@rosely3: #F4EEE8;
+@rosely4: #EC809E;
+@rosely5: #F7CACA;
+@rosely6: #F8D7DD;
+@rosely7: #F4DEDE;
+@rosely8: #85677B;
+@rosely9: #B565A7;
+@roselyA: #BE9CC1;
+@roselyB: #D2C4D6;
+@roselyC: #D2386C;
+@roselyD: #64BFA4;
+@roselyE: #3CADD4;
+@roselyF: #EADA4F;
 
 body {
-  background-color: @rosely0;
-  color: @rosely8;
+  background-color: @rosely5;
+  color: @rosely0;
 }
 ```
-
-The [Less module][gh-tree-less] provides all <Link to={ROUTE_DOCS_COLOR_AND_PALETTES}>Rosely colors</Link> as [Less variables][less-docs-vars] from `@rosely0` to `@rosely15`.
 
 ### Stylus
 
 [Stylus][] is a dynamic CSS preprocessor and extension language that was influenced by [Sass][] and [Less][].
-Rosely can be imported as [Stylus module][stylus-docs-import] using the `@import` @-rule, which extends the [default CSS `@import`][mdn-css-@import] @-rule, or the Stylus specific [`@require`][stylus-docs-import-req] @-rule:
 
 ```stylus
-@import "node_modules/rosely/src/rosely.styl";
+rosely0 = #27272a;
+rosely1 = #615F5F;
+rosely2 = #A49E9E;
+rosely3 = #F4EEE8;
+rosely4 = #EC809E;
+rosely5 = #F7CACA;
+rosely6 = #F8D7DD;
+rosely7 = #F4DEDE;
+rosely8 = #85677B;
+rosely9 = #B565A7;
+roselyA = #BE9CC1;
+roselyB = #D2C4D6;
+roselyC = #D2386C;
+roselyD = #64BFA4;
+roselyE = #3CADD4;
+roselyF = #EADA4F;
 
 body {
-  background-color: @rosely0;
-  color: @rosely8;
+  background-color: @rosely5;
+  color: @rosely0;
 }
 ```
-
-The [Stylus module][gh-tree-stylus] provides all <Link to={ROUTE_DOCS_COLOR_AND_PALETTES}>Rosely colors</Link> as [Stylus variables][stylus-docs-vars] from `@rosely0` to `@rosely15`.
 
 ### CSS
 
 The [CSS specification][w3-css-spec-vars] supports the definition of **custom properties**, often referred to as **CSS variables**, that contain specific values to be reused throughout a document.
 They are set using custom property notation (e.g. `--rosely8: #88c0d0;`) and are accessed using the CSS [`var()`][mdn-css-func-var] function (e.g. `color: var(--rosely8);`).
 
-Rosely can be imported as [CSS module][stylus-docs-import] using the [CSS `@import`][mdn-css-@import] @-rule:
 
 ```css
-@import "node_modules/rosely/src/rosely.css";
+:root {
+  --rosely0: #27272a;
+  --rosely1: #615F5F;
+  --rosely2: #A49E9E;
+  --rosely3: #F4EEE8;
+  --rosely4: #EC809E;
+  --rosely5: #F7CACA;
+  --rosely6: #F8D7DD;
+  --rosely7: #F4DEDE;
+  --rosely8: #85677B;
+  --rosely9: #B565A7;
+  --roselyA: #BE9CC1;
+  --roselyB: #D2C4D6;
+  --roselyC: #D2386C;
+  --roselyD: #64BFA4;
+  --roselyE: #3CADD4;
+  --roselyF: #EADA4F;
+}
 
 body {
-  background-color: var(--rosely0);
-  color: var(--rosely8);
+  background-color: var(--rosely5);
+  color: var(--rosely0);
 }
 ```
-
-If you're using the [PostCSS][] plugin [postcss-import][gh-postcss-import], Rosely can be simply imported like any JavaScript module:
-
-```css
-@import "rosely";
-```
-
-The [CSS module][gh-tree-css] provides all <Link to={ROUTE_DOCS_COLOR_AND_PALETTES}>Rosely colors</Link> as variables `--rosely0` to `--rosely15` nested inside the `:root` element selector.
-
-## Source Code Documentation
-
-The Sass module is documented using the [SassDoc][] comment syntax, a documentation system to build pretty and powerful docs from Sass files, while the Less and Stylus modules are documented using the [KSS][] comment syntax, a documentation syntax that is human readable, but just structured enough to be machine parsable.
-
-Both SassDoc and KSS can be used to generate a static, fully styled HTML document from the source code. Please see the [official SassDoc documentation on how to get started][sassdoc-docs-start] and the [official KSS documentation on how to create styleguides][kss-docs-styleguides] for more details.
 
 [gh-postcss-import]: https://github.com/postcss/postcss-import
 [gh-tree-css]: https://github.com/hellotham/rosely/blob/develop/src/rosely.css
