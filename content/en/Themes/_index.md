@@ -7,4 +7,6 @@ menu:
     weight: 30
 ---
 
-Rosely supports a broad and constantly growing set of themes that allows to customize your daily tool stack.
+![](/drawings/apps.svg)
+
+Rosely supports a set of themes that allows to customise your favourite applications.

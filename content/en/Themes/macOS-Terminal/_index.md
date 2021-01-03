@@ -29,6 +29,10 @@ Rosely Light example
 Rosely Dark example
 {{< /imgproc >}}
 
-{{< imgproc colortest Fit "585x548" >}}
+{{< imgproc colortest-8 Fit "644x542" >}}
 colortest-8 results
+{{< /imgproc >}}
+
+{{< imgproc colortest-16 Fit "644x559" >}}
+colortest-16 results
 {{< /imgproc >}}

@@ -33,7 +33,7 @@ $danger: $roselyC !default;
 $white: $rosely3 !default;
 $light: $rosely5 !default;
 
-$dark: $rosely2 !default;
+$dark: $rosely9 !default;
 $blue: $roselyE !default;
 $orange: $rosely4 !default;
 $gray-100: $rosely3 !default;
@@ -58,7 +58,7 @@ $td-sidebar-border-color: $border-color !default;
 // Background colors for the sections on home page etc. It is a paint by number system, starting at 0, where the number is taken from the shortcode's ordinal
 // if not provided by the user.
 // These colors are all part of the theme palette, but the mix is fairly random to create variation. This can be overridden by the project if needed.
-$td-box-colors: $rosely5, $rosely8, $rosely6, $roselyB, $primary-light, $gray-600, $success, $warning, $dark, $danger, $primary, $secondary, $primary-light, $info !default;
+$td-box-colors: $rosely5, $rosely8, $rosely6, $rosely7, $primary-light, $gray-600, $success, $warning, $dark, $danger, $primary, $secondary, $primary-light, $info !default;
 
 $link-color: $rosely9 !default;
 $link-decoration: none !default;
