@@ -91,16 +91,24 @@ The role of terminal color schemes is to map the 8 foreground colors (30-37) to 
 
 {{< swatch-group name="ANSI Foreground" >}}
 {{< swatch color="#27272a" code="black" name="Black Beauty" pantone="19-3911 TCX" >}}
-{{< swatch color="#615f5f" code="bright black" name="Granite Gray" pantone="18-5204 TCX" >}}
 {{< swatch color="#DD4124" code="red" name="Tangerine Tango" pantone="17-1463 TCX" >}}
-{{< swatch color="#D94F70" code="bright red" name="Honeysuckle" pantone="18-2120 TCX" >}}
+{{< swatch color="#009473" code="green" name="Emerald" pantone="17-5641 TCX" >}}
+{{< swatch color="#DFC160" code="yellow" name="Cream Gold" pantone="13-0739 TCX" >}}
+{{< swatch color="#0F4C81" code="blue" name="Classic Blue" pantone="9-4052 TCX" >}}
+{{< swatch color="#5F4B8B" code="magenta" name="Ultra Violet" pantone="18-3838 TCX" >}}
+{{< swatch color="#45B5AA" code="cyan" name="Turquoise" pantone="15-5519 TCX" >}}
+{{< swatch color="#A49E9E" code="white" name="Opal Gray" pantone="16-3801 TCX" >}}
 {{< /swatch-group >}}
 
 ---
 
 {{< swatch-group name="ANSI Bright/Bold" >}}
-{{< swatch color="#27272a" code="black" name="Black Beauty" pantone="19-3911 TCX" >}}
 {{< swatch color="#615f5f" code="bright black" name="Granite Gray" pantone="18-5204 TCX" >}}
-{{< swatch color="#DD4124" code="red" name="Tangerine Tango" pantone="17-1463 TCX" >}}
 {{< swatch color="#D94F70" code="bright red" name="Honeysuckle" pantone="18-2120 TCX" >}}
+{{< swatch color="#88B04B" code="bright green" name="Greenery" pantone="15-0343 TCX" >}}
+{{< swatch color="#F5DF4D" code="bright yellow" name="Illuminating" pantone="13-0647 TCX" >}}
+{{< swatch color="#93A9D1" code="bright blue" name="Serenity" pantone="15-3919 TCX" >}}
+{{< swatch color="#CA4286" code="bright magenta" name="Fuchsia Fedora" pantone="18-2330 TCX" >}}
+{{< swatch color="#C3DDD6" code="bright cyan" name="Opal Blue" pantone="12-5406 TCX" >}}
+{{< swatch color="#F4EEE8" code="bright white" name="Sugar Swizzle" pantone="11-0607 TCX" >}}
 {{< /swatch-group >}}

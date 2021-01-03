@@ -8,6 +8,6 @@ description: >
 
 ![](/drawings/add-color.svg)
 
-Rosely color palettes are available in various native color swatch formats.
+Rosely colour palettes are available in various native colour swatch formats.
 
 For detailed install instructions of all supported formats please refer to the documentation of the specific application.
