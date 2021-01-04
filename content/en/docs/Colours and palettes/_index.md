@@ -72,7 +72,8 @@ The colours in this group include a delectable raspberry, a periwinkle blue, a c
 
 This is an optional palette to be used in designs which require an expanded gamut and are intended to be drop in replacements for ANSI terminal colour schemes.
 
-The [ANSI escape code standard](https://en.wikipedia.org/wiki/ANSI_escape_code), formally adopted as [ISO/IEC 6429](https://www.ecma-international.org/publications/standards/Ecma-048.htm), defines a series of control sequences. Each control sequence begins with a *Control Sequence Inducer* (CSI), defined as an escape character followed immediately by a bracket: `ESC[`. In particular, a CSI followed by a certain number of “parameter bytes” (ASCII `0–9:;<=>?`) then the letter m forms a control sequence known as a *Select Graphic Rendition* (SGR). If no parameter bytes are explicitly given, then it is assumed to be 0. SGR parameters can be chained together with a semicolon ; as the delimiter.
+> The [ANSI escape code standard](https://en.wikipedia.org/wiki/ANSI_escape_code), formally adopted as [ISO/IEC 6429](https://www.ecma-international.org/publications/standards/Ecma-048.htm), defines a series of control sequences. Each control sequence begins with a *Control Sequence Inducer* (CSI), defined as an escape character followed immediately by a bracket: `ESC[`. In particular, a CSI followed by a certain number of “parameter bytes” (ASCII `0–9:;<=>?`) then the letter m forms a control sequence known as a *Select Graphic Rendition* (SGR). If no parameter bytes are explicitly given, then it is assumed to be 0. SGR parameters can be chained together with a semicolon ; as the delimiter.
+>- [Information from Chris Yeh's blog post on Terminal Colours](https://chrisyeh96.github.io/2020/03/28/terminal-colors.html)
 
 The 8 actual colors within the ranges (30-37, 40-47, 90-97, 100-107) are defined by the ANSI standard as follows:
 

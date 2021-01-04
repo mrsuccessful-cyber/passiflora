@@ -36,3 +36,5 @@ colortest-8 results
 {{< imgproc colortest-16 Fit "644x559" >}}
 colortest-16 results
 {{< /imgproc >}}
+
+Please note, if you want to automatically switch between dark and light versions of the macOS Terminal profiles, you may want to read [The macOS Dark Mode, your Terminal and Vim](https://stefan.sofa-rockers.org/2018/10/23/macos-dark-mode-terminal-vim/).
