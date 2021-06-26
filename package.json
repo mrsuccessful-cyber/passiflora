@@ -17,7 +17,6 @@
     "url": "https://github.com/ChristineTham/rosely-docsy/issues"
   },
   "homepage": "https://github.com/ChristineTham/rosely-docsy#readme",
-  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.2"
