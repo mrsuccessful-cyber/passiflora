@@ -82,8 +82,8 @@ time_format_blog = "2006-01-02"
 # Everything below this are Site Params
 
 [params]
-copyright = "Hello Tham"
-privacy_policy = "https://hellotham.com/info/privacy/"
+copyright = "گل ساعتی"
+privacy_policy = "/privacy/"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
